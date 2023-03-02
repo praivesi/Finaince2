@@ -10,3 +10,5 @@ df_kosdaq = fdr.DataReader('KQ11', start_date).add_suffix('_kosdaq')
 df_dow = fdr.DataReader('DJI', start_date).add_suffix('_dow')
 df_nasdaq = fdr.DataReader('IXIC', start_date).add_suffix('_nasdaq')
 df_snp500 = fdr.DataReader('US500', start_date).add_suffix('_s&p500')
+
+print(df_kospi)
